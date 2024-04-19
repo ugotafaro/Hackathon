@@ -1,0 +1,3 @@
+NouvelleColonne = VALUE(SUBSTITUTE(TRIM('crime_data'[QUANTITE]), ".0", ""))
+
+nbr = CONVERT('crime_data'[NouvelleColonne], INTEGER)
